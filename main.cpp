@@ -242,7 +242,7 @@ while (!WindowShouldClose()){
     ball.x += ball.dx; ball.y += ball.dy;
     
     // DRAW ELEMENTS
-    /* fps */ DrawText(("FPS : "+std::to_string(FPS)).c_str(),10,690,28,GREEN);
+    /* fps */ DrawText(("FPS : "+std::to_string(FPS)).c_str(),10,690,28,{70,70,70,255);
     
     player1.Draw();
     player2.Draw();
